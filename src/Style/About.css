@@ -1,0 +1,166 @@
+.about-section {
+  background-color: #f9f9fb;
+  padding: 80px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1230px;
+  gap: 40px;
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-img {
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: contain;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+}
+
+.about-right {
+  flex: 1;
+  color: #333;
+}
+
+.about-title {
+  font-family: "Orbitron", sans-serif;
+   font-size: 2.34rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about-title span {
+    font-family: "Orbitron", sans-serif;
+  font-size: 2.34rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+    background: linear-gradient(90deg, #0096FF 0%, #3A0CA3 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  font-size:21px;
+  line-height: 1.6;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+/* .about-text {
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.34rem;
+  color: #000000;
+  margin-bottom: 30px;
+  text-align: left;
+} */
+
+.mission-box {
+  background: linear-gradient(90deg, #00a8ff 0%, #6f42c1 100%);
+  color: white;
+  padding: 18px 30px;
+  border-radius: 10px;
+   /* box-shadow: 0px 6px 8px 0px #00000033; */
+ box-shadow: 0px 4px 4px 0px #00000040;
+
+font-family: "Poppins", sans-serif;
+
+}
+.mission-about{
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+.mission-box strong {
+  color: #fff;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+    .about-section {
+
+  padding: 80px 30px;
+ 
+}
+.about-title span {
+    font-family: "Orbitron", sans-serif;
+  font-size: 1.8rem;
+
+  margin-bottom: 20px;
+ 
+}
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 250px;
+  }
+
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+  .mission-box {
+ 
+  padding: 18px;
+  }
+  .mission-about{
+    font-size: 0.9rem;
+    
+}
+}
+/* -------- INITIAL STATE (HIDDEN) -------- */
+
+.fade-left,
+.fade-right {
+  opacity: 0;
+  transform: translateX(80px);
+  transition: all 1s ease-out;
+}
+
+.fade-left {
+  transform: translateX(-80px);
+}
+
+/* -------- WHEN VISIBLE -------- */
+
+.animate .fade-left,
+.animate .fade-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* extra smoothness */
+.about-section {
+  overflow: hidden;
+}

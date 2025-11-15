@@ -1,0 +1,121 @@
+.tokenomics-section {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+/* === Main Heading === */
+.tokenomics-heading {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.tokenomics-heading span {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+  color: #00aaff; /* highlight color */
+}
+
+/* === Paragraph === */
+.tokenomics-para {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: light;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  /* ensure paragraph text is not auto-capitalized */
+  text-transform: none;
+  color: #000000;
+  max-width: 880px;
+  margin: 0 auto 50px auto;
+}
+
+/* === Image === */
+.tokenomics-image img {
+  max-width: 1180px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.4s ease;
+}
+
+.tokenomics-image img:hover {
+  transform: scale(1.03);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .tokenomics-heading {
+    font-size: 28px;
+    line-height: 42px;
+            text-align: center;
+        padding: 0 20px;
+  }
+
+  .tokenomics-heading span {
+    font-size: 28px;
+  }
+
+  .tokenomics-para {
+    font-size: 18px;
+    line-height: 26px;
+    /* keep responsive paragraph text from being capitalized */
+    text-transform: none;
+  }
+
+  .tokenomics-image img {
+    max-width: 90%;
+  }
+}
+@media (max-width: 480px) {
+.tokenomics-heading {
+ 
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tokenomics-heading span {
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+ 
+}
+.tokenomics-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+.tokenomics-para {
+ 
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  text-align: left;
+  /* ensure paragraph text is not auto-capitalized */
+  text-transform: none;
+  color: #000000;
+  max-width: 880px;
+  margin: 0 auto 30px auto;
+  padding: 0 9px;
+  
+}
+.tokenomics-image img {
+  height: 210px;
+ max-width: 100%;
+  }
+}
