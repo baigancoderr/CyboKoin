@@ -38,18 +38,18 @@ const Footer = () => {
           <div>
             <h4>{isMobile ? "Links" : "Important Link"}</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Roadmap</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#road">Roadmap</a></li>
             </ul>
           </div>
 
           <div>
             <h4>About us</h4>
             <ul>
-              <li><a href="#">Tokenomics</a></li>
+              <li><a href="#token">Tokenomics</a></li>
               <li><a href="#">Partners</a></li>
-              <li><a href="#">White Paper</a></li>
+              <li><a href="#whitepaper">White Paper</a></li>
             </ul>
           </div>
 

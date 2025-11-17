@@ -4,7 +4,7 @@ import videoBg from "../assets/h2.mp4";
 
 const Home = () => {
   return (
-    <section className="cybokoin-section">
+    <section className="cybokoin-section" id="home">
       {/* ---- Left Content ---- */}
       <div className="cybokoin-left">
         <h4 className="cybokoin-heading">The Future Of Intelligent Currency</h4>

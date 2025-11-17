@@ -218,6 +218,10 @@ text-align: left;
   line-height: 30px;
   
 }
+.cybokoin-heading {
+  margin-top: 20px;
+  line-height: 1.1;
+}
 }
 
 /* ---- Animation Keyframes ---- */

@@ -27,9 +27,9 @@ const Navbar = () => {
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
         <li><a href="#home" className="active" onClick={() => setMenuOpen(false)}>Home</a></li>
         <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
-        <li><a href="#usecases" onClick={() => setMenuOpen(false)}>Use Cases</a></li>
-        <li><a href="#tokenomics" onClick={() => setMenuOpen(false)}>Tokenomics</a></li>
-        <li><a href="#roadmap" onClick={() => setMenuOpen(false)}>Roadmap</a></li>
+        <li><a href="#case" onClick={() => setMenuOpen(false)}>Use Cases</a></li>
+        <li><a href="#token" onClick={() => setMenuOpen(false)}>Tokenomics</a></li>
+        <li><a href="#road" onClick={() => setMenuOpen(false)}>Roadmap</a></li>
         <li><a href="#presale" onClick={() => setMenuOpen(false)}>Presale</a></li>
       </ul>
 

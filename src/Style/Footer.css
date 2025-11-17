@@ -37,7 +37,7 @@
   font-weight: 200;
   max-width: 460px;
   font-size: 20px;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #FFFFFF;
   margin-bottom: 30px;
   
@@ -138,6 +138,7 @@
   width: 155px;
   height: 149px;
   opacity: 1;
+  animation: spin 8s linear infinite;
 }
 
 /* Bottom Line */
@@ -295,5 +296,13 @@
   
   .footer-bottom {
     font-size: 14px;
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

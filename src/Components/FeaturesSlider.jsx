@@ -10,11 +10,11 @@ import a4 from "../assets/a2.jpg";
 import a5 from "../assets/a2.jpg";
 import a2 from "../assets/a2.jpg";
 import a3 from "../assets/a1.jpg";
-import p1 from "../assets/p1.jpeg";
-import p3 from "../assets/p3.jpeg";
-import p2 from "../assets/p2.png";
+import p1 from "../assets/pg.jpeg";
+import p3 from "../assets/pg2.jpeg";
+import p2 from "../assets/pg1.png";
 import p4 from "../assets/p4.png";
-import p5 from "../assets/p5.jpeg";
+import p5 from "../assets/pg3.jpeg";
 
 // NEW — 2 IMAGES PER CARD (frontImg + backImg)
 const cardsList = [
@@ -88,7 +88,7 @@ const FeaturesSlider = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" id="case">
       
       <h1 className="features-main-heading">
         <span className="use-cases-text">Use Cases of </span>

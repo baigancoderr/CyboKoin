@@ -27,7 +27,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className="about-section" ref={sectionRef}>
+    <section className="about-section" ref={sectionRef} id="about">
       <div className="about-container">
         <div className="about-left fade-left">
           <img src={cybokoin} alt="CyboKoin" className="about-img" />

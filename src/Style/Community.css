@@ -120,10 +120,11 @@
 /* ============ Responsive Fix ============ */
 @media (max-width: 768px) {
   .community-section {
-    padding: 40px 0;
+    padding: 10px 0;
     max-width: 96%;
     margin: auto;
     margin-bottom: 50px;
+    margin-top: 50px;
 
     /* Remove background and border completely */
     border: none;
@@ -156,12 +157,33 @@
 
   .community-desc {
     font-size: 14px;
-    line-height: 25px;
+    line-height: 1.5;
     margin-top: 10px;
   }
 
   .community-subtitle {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 1.5;
   }
+
+  .community-title {
+ 
+  font-size: 20px;
+  line-height: 1.4;
+ 
+}
+
+.community-title span {
+
+  font-size: 20px;
+ 
+}
+
+.social-images img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
 }

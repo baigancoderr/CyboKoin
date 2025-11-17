@@ -4,7 +4,7 @@ import tokenomicsImg from "../assets/token.png";
 
 const Tokenomics = () => {
   return (
-    <section className="tokenomics-section">
+    <section className="tokenomics-section" id="token">
       <h2 className="tokenomics-heading">
         <span>CBKN</span> Tokenomics
       </h2>

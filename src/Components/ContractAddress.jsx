@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";   // ← Add this
 import "../Style/ContractAddress.css";
 
 const ContractAddress = () => {
@@ -21,9 +22,18 @@ const ContractAddress = () => {
         <input type="text" value={address} readOnly className="address-input" />
       </div>
 
-      <button className="copy-btn" onClick={handleCopy}>
+      {/* === Animated Button === */}
+      <motion.button
+        className="copy-btn"
+        onClick={handleCopy}
+        initial={{ y: 50, opacity: 0 }}          // start below
+        whileInView={{ y: 0, opacity: 1 }}       // animate to normal
+        exit={{ y: 80, opacity: 0 }}             // hide again on exit
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.3 }}  // animate again on scroll
+      >
         {copied ? "COPIED!" : "COPY"}
-      </button>
+      </motion.button>
     </section>
   );
 };
