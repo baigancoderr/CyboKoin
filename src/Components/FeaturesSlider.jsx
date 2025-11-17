@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import "../Style/FeaturesSlider.css";
 
 // IMPORT IMAGES (your real images here)
-import staking from "../assets/a2.jpg";
+import stak from "../assets/stak.png";
 import payment from "../assets/payment.png";
-import utility from "../assets/a3.png";
-import nft from "../assets/a1.jpg";
+import uti from "../assets/uti.png";
+import Governance from "../assets/Governance.png";
+import nft from "../assets/nft.png";
 import a4 from "../assets/a2.jpg";
 import a5 from "../assets/a2.jpg";
 import a2 from "../assets/a2.jpg";
@@ -20,7 +21,7 @@ import p5 from "../assets/pg3.jpeg";
 const cardsList = [
   { 
     title: "STAKING & REWARDS",
-    frontImg: payment,
+    frontImg: stak,
     backImg: p2,
     desc: "Expand your crypto utilities."
   },
@@ -33,19 +34,19 @@ const cardsList = [
   
   { 
     title: "UTILITY BOOST",
-    frontImg: payment,
+    frontImg: uti,
     backImg: p4,
     desc: "Expand your crypto utilities."
   },
   { 
-    title: "FAST SETTLEMENT",
-    frontImg: payment,
+    title: "Governance",
+    frontImg: Governance,
     backImg: p3,
     desc: "Expand your crypto utilities."
   },
   { 
     title: "NFT",
-    frontImg: payment,
+    frontImg: nft,
     backImg: p5,
     desc: "Automated & secure blockchain contracts."
   }
