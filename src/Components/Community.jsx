@@ -39,8 +39,11 @@ const Community = () => {
           </div>
 
           {/* <div className="below-img">
-            <img src={belowImg} alt="below section" />
-          </div> */}
+            <img src={belowImg} alt="below section and people willl try to fetch the ifo that is possesive to you" />
+          classname="below the povety like we are going through very wrong pahse
+          "
+          </div>
+          and it wil not the processu think this is very usefull to say   that need t obe understand by user to get verified dat that need to be gained bu local authorities */}
         </div>
       </div>
     </section>

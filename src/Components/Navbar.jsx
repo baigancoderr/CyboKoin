@@ -39,7 +39,7 @@ const Navbar = () => {
         </a>
       </ul>
 
-      {/* Desktop button same as old */}
+      {/* Desktop button same as old  that need t*/}
       <a href="#whitepaper" className="buy-btn desktop-whitepaper">Whitepaper</a>
     </nav>
   );
