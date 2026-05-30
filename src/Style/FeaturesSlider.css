@@ -137,7 +137,7 @@ color: #333333;
   transition: all 0.35s ease;
 }
 
-/* On Hover → more tilt + 3D depth */
+/* On Hover → more tilt + 3D depth */ 
 .left-tilt:hover {
   transform: perspective(700px) rotate(-6deg) rotateY(-6deg) scale(1);
   opacity: 1;
@@ -251,18 +251,7 @@ color: #333333;
   box-shadow: 0 0 6px rgba(0,0,0,0.4);
 }
 
-/* SHADOW BOX UNDER CENTER CARD */
-/* .center-shadow {
-  width: 500px;
-  height: 155px;
-  background: #7d7d7d;
-  opacity: 0.25;
-  border-radius:40px;
-  margin-top: 20px; 
-  filter: blur(2px);
-  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0 100%);
-  transform: scale(0.95);
-} */
+
 .center-shadow {
     width: 500px;
     height: 155px;
@@ -276,7 +265,7 @@ color: #333333;
     transition: all 0.4s ease;
 }
 
-/* === Hover 3D effect === */
+
 .center-shadow:hover {
     transform: perspective(700px) rotateX(18deg) scale(1);
     filter: blur(6px);

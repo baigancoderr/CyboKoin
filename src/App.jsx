@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import Home from './Components/Home'
 import Navbar from './Components/Navbar'
@@ -19,6 +21,39 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
+
+    //  <BrowserRouter>
+      
+    //   <Navbar />
+
+    //   <Routes></Routes>
+
+
+    //  <Route
+    //       path="/"
+    //       element={
+    //         <>
+    //           <Home />
+    //           <Marquees />
+    //           <About />
+    //           <Whitepaper />
+    //           <FeaturesSlider />
+    //           <Tokenomics />
+    //           <TokenInfo />
+    //           <Roadmap />
+    //           <ContractAddress />
+    //           <Community />
+    //         </>
+    //       }
+    //     />
+
+    //    <Route path="/buy-now" element={<BuyNow />} />
+
+    //   </Routes>
+
+    //   <Footer />
+
+    // </BrowserRouter>
     <>
       
       <Navbar/>
@@ -31,7 +66,6 @@ function App() {
         <TokenInfo/>
         <Roadmap/>
         <ContractAddress/> 
-      
       <Community/>
       <Footer/>  
      
